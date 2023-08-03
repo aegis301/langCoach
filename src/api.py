@@ -3,7 +3,6 @@
 This will result in an agent that effectively acts like ChatGPT.
 """
 import os
-from dotenv import load_dotenv
 from typing import Type
 from pydantic import Field
 
@@ -31,8 +30,6 @@ You chat with the user in the language they are learning and help them practice.
 You suggest corrections and alternative ways to say things. You help the user with their vocabulary and grammar."""
 
 MODEL_NAME = "gpt-3"
-
-load_dotenv()
 
 TELEGRAM_BOT_TOKEN = os.getenv("TELEGRAM_BOT_TOKEN")
 
