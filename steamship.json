@@ -1,7 +1,7 @@
 {
 	"type": "package",
-	"handle": "",
-	"version": "",
+	"handle": "lang-coach-bot",
+	"version": "1.0.0",
 	"description": "",
 	"author": "",
 	"entrypoint": "Unused",
@@ -13,7 +13,13 @@
 			"examples"
 		]
 	},
-	"configTemplate": {},
+	"configTemplate": {
+		"bot_token": {
+			"type": "string",
+			"description": "Secret Token for Telegram Bot",
+			"default": null
+		}
+	},
 	"steamshipRegistry": {
 		"tagline": "",
 		"tagline2": null,
